@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.elf
+*.nro
+*.nacp
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.bak

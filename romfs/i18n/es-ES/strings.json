@@ -1,0 +1,68 @@
+{
+  "app": {
+    "name": "LinkSaver",
+    "description": "Cliente multiplataforma de sincronización de partidas guardadas"
+  },
+  "tabs": {
+    "sync": "Sincronizar",
+    "directories": "Carpetas de Saves",
+    "settings": "Ajustes"
+  },
+  "sync": {
+    "title": "Sincronización de Partidas",
+    "subtitle": "Mantén tus partidas sincronizadas entre todos tus dispositivos",
+    "sync_now": "Sincronizar Todo",
+    "syncing": "Sincronizando partidas...",
+    "idle": "Listo para sincronizar",
+    "up_to_date": "Todas las partidas están al día",
+    "uploaded": "Subidas",
+    "downloaded": "Descargadas",
+    "conflicts": "Conflictos resueltos",
+    "last_sync": "Última sincronización: %s",
+    "never": "Nunca"
+  },
+  "directories": {
+    "title": "Etiquetas de Directorios",
+    "subtitle": "Gestiona las carpetas mapeadas en la tarjeta microSD",
+    "add_new": "Añadir Nuevo Mapeo de Carpeta",
+    "tag_label": "Tag",
+    "name_label": "Nombre Descriptivo",
+    "path_label": "Ruta Local",
+    "ext_label": "Extensiones Permitidas",
+    "browse_sd": "Examinar Tarjeta SD",
+    "delete": "Eliminar Mapeo",
+    "save": "Guardar Cambios",
+    "confirm_delete": "¿Seguro que deseas eliminar este mapeo?"
+  },
+  "explorer": {
+    "title": "Seleccionar Carpeta de la SD",
+    "instructions": "Navega con el D-Pad o toque táctil. Pulsa (Y) para seleccionar la carpeta actual.",
+    "select_this_folder": "Seleccionar Carpeta Actual (Y)",
+    "up_level": "Subir un nivel (B)",
+    "current_path": "Ruta: %s"
+  },
+  "settings": {
+    "title": "Configuración de Servidor y Red",
+    "subtitle": "Configura los parámetros de conexión con el backend",
+    "server_url": "URL del Servidor",
+    "server_url_hint": "ej. 192.168.1.50:8080 o https://linksaver.midominio.com",
+    "auth_token": "Token de Autenticación (Opcional)",
+    "auth_token_hint": "Token Bearer si el servidor tiene autenticación activada",
+    "timeout": "Tiempo de Espera de Red",
+    "timeout_unit": "%d segundos",
+    "ping_button": "Comprobar Conexión (Ping)",
+    "ping_checking": "Comprobando conexión...",
+    "ping_success": "¡Conectado! Servidor: %s, Latencia: %d ms",
+    "ping_failed": "Error de conexión: %s",
+    "save_settings": "Guardar Ajustes",
+    "saved_ok": "Ajustes guardados correctamente"
+  },
+  "common": {
+    "ok": "Aceptar",
+    "cancel": "Cancelar",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Aviso",
+    "back": "Volver"
+  }
+}
