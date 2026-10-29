@@ -5,7 +5,7 @@
 [![UI](https://img.shields.io/badge/UI-Borealis-22c55e?style=flat-square)](#)
 [![Format](https://img.shields.io/badge/Format-.NRO%20Homebrew-blue?style=flat-square)](#)
 
-Native Nintendo Switch client application (.nro) for the LinkSaver multiplatform game save synchronization ecosystem. Built with C++17, libnx, and Borealis UI, it provides a native Horizon OS look-and-feel with Joy-Con and touch screen navigation, on-screen keyboard support, SD card folder explorer, and atomic save synchronization.
+Native Nintendo Switch client application (.nro) for the LinkSaver multiplatform game save synchronization ecosystem. Built with C++17, libnx, and Borealis UI, it provides a native Horizon OS look-and-feel with Joy-Con and touch screen navigation, on-screen keyboard support, SD card folder explorer, and atomic save synchronization. Needs a local (or server side) running instance of [LinkSaverBack](https://github.com/Quimaerical/LinkSaverBack) and a console with Atmosphére connected to the internet (make sure you have your [90DNS](https://gitlab.com/a/90dns) or Atmosphére DNS MITM [running correctly](https://github.com/meganukebmp/Switch_90DNS_tester) and [your accounts disconnected](https://github.com/impeeza/linkalho) just to be sure and avoid bans)
 
 ---
 
